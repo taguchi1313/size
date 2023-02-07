@@ -1,6 +1,10 @@
-window.onresize = function(){
-  location.reload();
-};
+//window.onresize = function(){
+//  location.reload();
+//};
+
+setTimeout(function () {
+    location.reload();
+}, 2000);
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
