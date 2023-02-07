@@ -12,6 +12,6 @@ function setup() {
 
 function draw() {
   background(220);
-  text("w: " + windowWidth,10,20);
-  text("h: " + windowHeight,10,40);
+  text("width: " + windowWidth,10,20);
+  text("height: " + windowHeight,10,40);
 }
